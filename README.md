@@ -1,4 +1,4 @@
-# 🛡️ Sentinel - AI-Powered Security Platform
+# 🛡️ DefendaX - AI-Powered Security Platform
 
 **Sentinel** is a comprehensive AI-powered cybersecurity platform that provides intelligent threat detection, network monitoring, automated incident response, and comprehensive reporting capabilities.
 
