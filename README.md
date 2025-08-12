@@ -153,13 +153,13 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 ### AI Service Configuration
 ```typescript
 // src/services/ai-service.ts
-export const sentinelAI = new SentinelAIService({
+export const defendax = new DefendaAIService({
   apiEndpoint: process.env.NEXT_PUBLIC_AI_API_ENDPOINT,
   apiKey: process.env.NEXT_PUBLIC_AI_API_KEY,
   models: {
-    threatDetection: 'sentinel-threat-v1',
-    networkAnalysis: 'sentinel-network-v1',
-    incidentResponse: 'sentinel-incident-v1'
+    threatDetection: 'defenda-threat-v1',
+    networkAnalysis: 'defenda-network-v1',
+    incidentResponse: 'defenda-incident-v1'
   }
 });
 ```
@@ -190,11 +190,11 @@ Ensure all required environment variables are set in your production environment
 
 ```env
 # Required for AI functionality
-NEXT_PUBLIC_AI_API_ENDPOINT=https://api.sentinel.ai
+NEXT_PUBLIC_AI_API_ENDPOINT=()
 NEXT_PUBLIC_AI_API_KEY=your_production_ai_key
 
 # Required for security services
-NEXT_PUBLIC_API_URL=https://api.sentinel.ai/v1
+NEXT_PUBLIC_API_URL=()
 NEXT_PUBLIC_DASHBOARD_KEY=your_production_dashboard_key
 # ... other service keys
 ```
@@ -261,20 +261,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 ### Documentation
-- [API Documentation](https://docs.sentinel.ai)
-- [AI Model Documentation](https://ai.sentinel.ai/docs)
-- [Security Guidelines](https://security.sentinel.ai)
+- [API Documentation]()
+- [AI Model Documentation]()
+- [Security Guidelines]()
 
 ### Community
-- [Discord Community](https://discord.gg/sentinel)
-- [GitHub Discussions](https://github.com/your-org/sentinel-ai-security/discussions)
-- [Security Advisories](https://security.sentinel.ai/advisories)
+- [Discord Community]()
+- [GitHub Discussions]()
+- [Security Advisories]()
 
 ### Contact
-- **Email**: support@sentinel.ai
-- **Security**: security@sentinel.ai
-- **Sales**: sales@sentinel.ai
+- **Email**: 
+- **Security**: 
+- **Sales**: 
 
 ---
 
-**Sentinel** - Your AI-Powered Security Guardian 🛡️🤖 
+**DefendaX** - Your AI-Powered Security Guardian 🛡️🤖 
